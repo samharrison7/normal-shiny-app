@@ -1,0 +1,8 @@
+# Fortran compilation files
+*.o
+*.so
+*.mod
+
+# R workspace
+.RData
+.Rhistory
