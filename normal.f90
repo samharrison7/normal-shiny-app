@@ -1,6 +1,6 @@
 subroutine normal_pdf(x, n, loc, scale, pdf)
     use iso_c_binding, only: c_int, c_double
-    integer(kind=c_int), intent(in) :: n     !! Length of the x array
+    integer(kind=c_int), intent(in) :: n            !! Length of the x array
     real(kind=c_double), intent(in) :: x(n)         !! x array to calculate normal over
     real(kind=c_double), intent(in) :: loc          !! loc paramter (mean)
     real(kind=c_double), intent(in) :: scale        !! scale parameter (width)

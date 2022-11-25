@@ -10,8 +10,10 @@ Compile the Fortran code using the Fortran compiler used internally for R:
 $ R CMD SHLIB normal.f90
 ```
 
-Run the R script:
+From the R console, load R Shiny and run the app:
 
 ```bash
-$ Rscript main.R
+$ R
+> library(shiny)
+> runApp(".")
 ```
