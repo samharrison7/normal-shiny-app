@@ -4,6 +4,13 @@ Testing the calling of Fortran from within an R script.
 
 ## Usage
 
+If you are using `renv`, install the required R packages:
+
+```bash
+$ R
+> renv:restore()
+```
+
 Compile the Fortran code using the Fortran compiler used internally for R:
 
 ```bash
