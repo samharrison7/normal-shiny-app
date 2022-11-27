@@ -1,4 +1,4 @@
-# Fortran from R
+# Fortran from R - Shiny app to plot a normal distribution
 
 Testing the calling of Fortran from within an R script.
 
